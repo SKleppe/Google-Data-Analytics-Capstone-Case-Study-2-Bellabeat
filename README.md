@@ -7,8 +7,8 @@ Date: September 17, 2025
 
 Table of Contents:
 
-1. [Purpose](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Purpose)
-2. [Data Credibility](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Credibility)
+1. [Purpose](#purpose)
+2. [Data Credibility](#data-credibility)
 3. [Data Source](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Source)
 4. [Data Dictionaries](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Dictionaries)
 5. [Data Preparation](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Preparation)
