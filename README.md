@@ -325,7 +325,7 @@ ggplot(daily_activity_clean_v3_long, aes(reorder(x = activity_level, -hours_per_
   labs(title = "Average Daily Hours by Activity Level", x = "Activity Level", y = "Hours") +
   scale_x_discrete(labels = c("Sedentary", "Lightly Active", "Very Active", "Fairly Active"))
 ```
-<img width="774" height="346" alt="Average Daily Hours by Activity Level" src="https://github.com/user-attachments/assets/4df78deb-9f2b-4a0b-8603-8ae83f9dae85" />
+<img width="774" height="346" alt="Average Daily Hours by Activity Level" src="https://github.com/user-attachments/assets/e1574f4c-45d9-4e41-aa20-734e554c0afb" />
 
 ###### Distribution of user daily total steps
 ```R
@@ -333,7 +333,7 @@ ggplot(daily_activity_clean_v3, aes(x = total_steps)) +
   geom_histogram(fill = "#A4BED5FF", color = "#453947FF") +
   labs(title = "Distribution of User Daily Total Steps", x = "Total Steps", y = "Count of Total Steps")
 ```
-<img width="774" height="546" alt="Distribution of User Daily Total Steps" src="https://github.com/user-attachments/assets/9e048dc5-25b9-48a2-9d58-faee52ad03fe" />
+<img width="774" height="546" alt="Distribution of User Daily Total Steps" src="https://github.com/user-attachments/assets/0ec80f95-4c8a-49c1-8df5-d732f09d1396" />
 
 ###### Distribution of user daily total distance
 ```R
@@ -341,7 +341,7 @@ ggplot(daily_activity_clean_v3, aes(x = total_distance)) +
   geom_histogram(fill = "#A4BED5FF", color = "#453947FF") +
   labs(title = "Distribution of User Daily Total Distance", x = "Total Distance", y = "Count of Total Distance")
 ```
-<img width="774" height="546" alt="Distribution of User Daily Total Distance" src="https://github.com/user-attachments/assets/d1b0ae9f-4d0f-40f3-b376-c453fd5a2e14" />
+<img width="774" height="546" alt="Distribution of User Daily Total Distance" src="https://github.com/user-attachments/assets/41f5d80d-6f0a-4e3a-80ca-28a5f29618d3" />
 
 ###### Total steps vs total calories
 ```R
@@ -351,7 +351,7 @@ ggplot(daily_activity_clean_v3, aes(x = total_steps, y = calories)) +
   scale_x_continuous(labels = function(x) format(x, scientific = FALSE)) + 
   labs(title = "Total Steps vs Calories", x = "Total Steps", y = "Calories")
 ```
-<img width="774" height="546" alt="Total Steps vs Calories" src="https://github.com/user-attachments/assets/9f597acf-fdf5-4bdf-acff-00a1a8f04bec" />
+<img width="774" height="546" alt="Total Steps vs Calories" src="https://github.com/user-attachments/assets/7b670c6b-0988-4f37-875b-e9ab798b12ba" />
 
 #### minuteSleep_merged
 ###### Number of unique id's in dataset 1 (03-12-2016 to 04-11-2016) = 23
@@ -396,7 +396,7 @@ ggplot(user_entry_frequency, aes(x = "", y = proportion, fill = category)) +
   theme_void() + 
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
 ```
-<img width="774" height="546" alt="Sleep Log Frequency" src="https://github.com/user-attachments/assets/a9c34347-c902-417b-89ab-6bdccc1ff702" />
+<img width="774" height="546" alt="Sleep Log Frequency" src="https://github.com/user-attachments/assets/e93fa666-244d-4df8-9a7f-353240359706" />
 
 ###### Average hours of sleep per user based on log id
 ```R
@@ -427,7 +427,7 @@ ggplot(average_hours_of_sleep, aes(x = "", y = proportion, fill = category)) +
   theme_void() + 
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
 ```
-<img width="774" height="546" alt="Average Hours of Sleep" src="https://github.com/user-attachments/assets/29593a43-717e-45de-a97d-98225dc4f105" />
+<img width="774" height="546" alt="Average Hours of Sleep" src="https://github.com/user-attachments/assets/e9a18f49-0785-41b1-b242-43624054abb3" />
 
 #### weightLogInfo_merged
 ###### Number of unique id's in dataset 1 (03-12-2016 to 04-11-2016) = 11
@@ -468,7 +468,7 @@ ggplot(manual_datasync_count, aes(reorder(x = is_manual_report, -proportion), y 
     scale_x_discrete(labels = c("Manual", "Data Sync")) + 
   theme(plot.title = element_text(hjust = 0.5))
 ```
-<img width="774" height="546" alt="Manual vs Data Sync Logs" src="https://github.com/user-attachments/assets/aba4c24a-9f7f-4252-9ccc-e4f61dc1760b" />
+<img width="774" height="546" alt="Manual vs Data Sync Logs" src="https://github.com/user-attachments/assets/dc87e072-49c4-4254-be20-dd75a682e761" />
 
 ### Key Takeaways
 [Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
