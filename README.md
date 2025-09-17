@@ -9,15 +9,15 @@ Table of Contents:
 
 1. [Purpose](#purpose)
 2. [Data Credibility](#data-credibility)
-3. [Data Source](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Source)
-4. [Data Dictionaries](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Dictionaries)
-5. [Data Preparation](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Preparation)
-6. [Data Analysis](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Data-Analysis)
-7. [Key Takeaways](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Key-Takeaways)
-8. [Next Steps](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Next-Steps)
+3. [Data Source](#data-source)
+4. [Data Dictionaries](#data-dictionaries)
+5. [Data Preparation](#data-preparation)
+6. [Data Analysis](#data-analysis)
+7. [Key Takeaways](#key-takeaways)
+8. [Next Steps](#next-steps)
 
 ### Purpose 
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 Analyze non-Bellabeat smart device usage to determine consumer trends and how they can be applied to Bellabeat customers and help influence Bellabeat marketing for the Leaf product.
 
@@ -25,7 +25,7 @@ Requested by: Urška Sršen, Bellabeat’s co-founder and Chief Creative Officer
 Presenting to: the Bellabeat Executive Team
 
 ### Data Credibility
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 #### Reliability of Fitbit Data
 Potential sources of error/biases can cause overestimated/underestimated data. 
@@ -53,7 +53,7 @@ The data was collected in 2016, 9 years ago.
   2. Risk of misleading insights
 
 ### Data Source
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016
 
@@ -62,7 +62,7 @@ Published May 31, 2016, Version v1
 https://zenodo.org/records/53894#.X9oeh3Uzaao
 
 ### Data Dictionaries
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 Fitabase Fitbit Dictionary
 
@@ -71,12 +71,12 @@ Website with PDF link: https://www.fitabase.com/resources/knowledge-base/exporti
 PDF version: https://www.fitabase.com/media/2126/fitabase-fitbit-data-dictionary-as-of-05162025.pdf
 
 ### Data Preparation
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 #### Programming Language: R in Posit Cloud
-  1. [dailyActivity_merged](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#dailyactivity_merged)
-  2. [minuteSleep_merged](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#minuteSleep_merged)
-  3. [weightLogInfo_merged](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#weightLogInfo_merged)
+  1. [dailyActivity_merged](#dailyactivity_merged)
+  2. [minuteSleep_merged](#minutesleep_merged)
+  3. [weightLogInfo_merged](#weightloginfo_merged)
 
 ###### Install and load libraries
 ```R
@@ -282,11 +282,11 @@ write.csv(weight_log, file_name, row.names=FALSE)
 ```
 
 ### Data Analysis
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
-  1. [dailyActivity_merged](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#dailyactivity_merged-1)
-  2. [minuteSleep_merged](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#minuteSleep_merged-1)
-  3. [weightLogInfo_merged](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#weightLogInfo_merged-1)
+  1. [dailyActivity_merged](#dailyactivity_merged-1)
+  2. [minuteSleep_merged](#minutesleep_merged-1)
+  3. [weightLogInfo_merged](#weightloginfo_merged-1)
 
 #### dailyActivity_merged
 ###### Number of unique id's in dataset 1 (03-12-2016 to 04-11-2016) = 35
@@ -471,7 +471,7 @@ ggplot(manual_datasync_count, aes(reorder(x = is_manual_report, -proportion), y 
 <img width="774" height="546" alt="Manual vs Data Sync Logs" src="https://github.com/user-attachments/assets/dc87e072-49c4-4254-be20-dd75a682e761" />
 
 ### Key Takeaways
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 #### Target Market
 * Sedentary lifestyle
@@ -492,7 +492,7 @@ ggplot(manual_datasync_count, aes(reorder(x = is_manual_report, -proportion), y 
 * Increase frequency of weight logs
 
 ### Next Steps
-[Back to Top](https://github.com/SKleppe/Google-Data-Analytics-Capstone-Bellabeat/blob/main/README.md#Google-Data-Analytics-Capstone-Bellabeat)
+[Back to Top](#google-data-analytics-capstone-bellabeat)
 
 #### Increase Daily Step Count
 * Encourage users to moderately increase activity through in-app notifications and newsletter/in-app tips and tricks such as parking farther from a store or office building.
